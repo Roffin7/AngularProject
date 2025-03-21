@@ -1,0 +1,18 @@
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12" *ngFor="let enquiry of enquiries">
+            <div class="card mb-3 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">{{ enquiry.name }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ enquiry.email }}</h6>
+                    <p class="card-text">
+                        <strong>Service Type:</strong> {{ enquiry.serviceType }}
+                    </p>
+                    <p class="card-text">
+                        <strong>Message:</strong> {{ enquiry.message }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
