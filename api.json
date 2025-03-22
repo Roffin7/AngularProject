@@ -348,5 +348,23 @@
       "teamSize": 5,
       "image": "ecommerce.jpg"
     }
+  ],
+  "enquiryresponses": [
+    {
+      "id": "9d15",
+      "subject": "Market Analysis",
+      "message": "I can do it for you",
+      "estimatedPrice": 1000,
+      "duration": "2 ",
+      "messageId": "0"
+    },
+    {
+      "id": "9ad8",
+      "subject": "DM",
+      "message": "I'll do.",
+      "estimatedPrice": 1999,
+      "duration": "2",
+      "messageId": "1"
+    }
   ]
 }

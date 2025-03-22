@@ -33,4 +33,8 @@ export class ApiService {
     return this.http.get<any[]>('http://localhost:4500/enquiries');
   }
 
+  addEnquiryReply(data:any):Observable<any>{
+    return this.http.post('http://localhost:4500/enquiryresponses', data);
+  }
+
 }
