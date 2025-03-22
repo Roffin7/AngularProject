@@ -17,6 +17,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { EnquiryComponent } from './pages/enquiry/enquiry.component';
 import { LoginComponent } from './common/login/login.component';
 import { EnquiryResponseComponent } from './pages/enquiry/enquiry-response/enquiry-response.component';
+import { HighlightPipe } from './pipes/highlight.pipe';
+import { FilterservicePipe } from './pipes/filterservice.pipe';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { EnquiryResponseComponent } from './pages/enquiry/enquiry-response/enqui
     EnquiryFormComponent,
     EnquiryComponent,
     LoginComponent,
-    EnquiryResponseComponent
+    EnquiryResponseComponent,
+    HighlightPipe,
+    FilterservicePipe
   ],
   imports: [
     BrowserModule,

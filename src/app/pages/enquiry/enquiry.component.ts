@@ -8,14 +8,32 @@ import { Enquiry } from '../../model/enquiry';
   styleUrl: './enquiry.component.css'
 })
 export class EnquiryComponent {
-    enquiries: Enquiry[] = [];
-  
-    constructor(private apiService: ApiService) {}
-  
-    ngOnInit(): void {
-      this.apiService.getEnquiries().subscribe(data => {
-        this.enquiries = data;
-      });
+  enquiries: Enquiry[] = [];
+
+  serviceTypes: string[] = [
+     'All',
+    'Branding and Communication',
+    'Inbound & Content Marketing',
+    'Film & Webinar',
+    'Digital Marketing',
+    'ECommerce & Websites',
+    'Market Analysis'
+    ];
+
+    selected:string = 'All'
+    constructor(private api:ApiService){
+
     }
+  
+    ngOnInit(){ 
+       this.api.getEnquiries().subscribe({
+         next: (response:Enquiry[]) => {
+           this.enquiries = response;
+         },
+         error: (error) => {
+           console.log("Error while fetching enquiries", error);
+         }
+    })
+  }
 
 }

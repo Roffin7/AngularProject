@@ -1,7 +1,15 @@
+<h3>Enquiries</h3>
+<div class="alert alert-dark" role="alert">
+    Select Service Type:
+    <select [(ngModel)]="selected">
+       <option *ngFor="let service of serviceTypes" [value]="service">
+        {{ service }}</option>
+    </select>
+</div>
 <h2 class="text-center">Enquiries</h2>
 <div class="container mt-4">
     <div class="row">
-        <div class="col-12" *ngFor="let enquiry of enquiries">
+        <div class="col-12" *ngFor="let enquiry of enquiries | filterservice:selected">
             <div class="card mb-3 shadow-sm">
                 <div class="card-body">
                     <h5 class="card-title">{{ enquiry.name }}</h5>
