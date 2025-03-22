@@ -15,6 +15,7 @@ import { ServiceDetailsComponent } from './pages/home/service-details/service-de
 import { EnquiryFormComponent } from './pages/home/enquiry-form/enquiry-form.component';
 import { FormsModule } from '@angular/forms';
 import { EnquiryComponent } from './pages/enquiry/enquiry.component';
+import { LoginComponent } from './common/login/login.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { EnquiryComponent } from './pages/enquiry/enquiry.component';
     ServiceItemComponent,
     ServiceDetailsComponent,
     EnquiryFormComponent,
-    EnquiryComponent
+    EnquiryComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

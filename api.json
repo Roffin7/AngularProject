@@ -140,6 +140,111 @@
       "email": "shreak505@gmail.com",
       "serviceType": "Digital Marketing",
       "message": "I wolud like you to do DM for my new product."
+    },
+    {
+      "id": "c2a1",
+      "name": "Alice",
+      "email": "alice123@gmail.com",
+      "serviceType": "Branding and Communication",
+      "message": "Looking for branding services for my startup."
+    },
+    {
+      "id": "d3b2",
+      "name": "Bob",
+      "email": "bob456@gmail.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "Need help with content marketing strategies."
+    },
+    {
+      "id": "e4c3",
+      "name": "Charlie",
+      "email": "charlie789@gmail.com",
+      "serviceType": "Film & Webinar",
+      "message": "Can you create a webinar for our new product launch?"
+    },
+    {
+      "id": "f5d4",
+      "name": "Diana",
+      "email": "diana101@gmail.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "Need a new eCommerce website for my business."
+    },
+    {
+      "id": "g6e5",
+      "name": "Eve",
+      "email": "eve202@gmail.com",
+      "serviceType": "Market Analysis",
+      "message": "Require detailed market analysis for our target audience."
+    },
+    {
+      "id": "h7f6",
+      "name": "Frank",
+      "email": "frank303@gmail.com",
+      "serviceType": "Digital Marketing",
+      "message": "Looking for a digital marketing campaign for our brand."
+    },
+    {
+      "id": "i8g7",
+      "name": "Grace",
+      "email": "grace404@gmail.com",
+      "serviceType": "Branding and Communication",
+      "message": "Need help with rebranding our company."
+    },
+    {
+      "id": "j9h8",
+      "name": "Hank",
+      "email": "hank505@gmail.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "Want to improve our inbound marketing efforts."
+    },
+    {
+      "id": "k0i9",
+      "name": "Ivy",
+      "email": "ivy606@gmail.com",
+      "serviceType": "Film & Webinar",
+      "message": "Can you produce a corporate film for us?"
+    },
+    {
+      "id": "l1j0",
+      "name": "Jack",
+      "email": "jack707@gmail.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "Need a website redesign for better user experience."
+    },
+    {
+      "id": "m2k1",
+      "name": "Karen",
+      "email": "karen808@gmail.com",
+      "serviceType": "Market Analysis",
+      "message": "Looking for insights into our competitors' strategies."
+    },
+    {
+      "id": "n3l2",
+      "name": "Leo",
+      "email": "leo909@gmail.com",
+      "serviceType": "Digital Marketing",
+      "message": "Need assistance with SEO and PPC campaigns."
+    },
+    {
+      "id": "o4m3",
+      "name": "Mona",
+      "email": "mona1010@gmail.com",
+      "serviceType": "Branding and Communication",
+      "message": "Want to create a new logo and brand identity."
+    },
+    {
+      "id": "p5n4",
+      "name": "Nina",
+      "email": "nina1111@gmail.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "Require content creation for our blog and social media."
+    },
+    {
+      "id": "q6o5",
+      "name": "Oscar",
+      "email": "oscar1212@gmail.com",
+      "serviceType": "Film & Webinar",
+      "message": "Need help hosting a webinar for our clients."
     }
   ],
   "projects": [
